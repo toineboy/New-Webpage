@@ -1,0 +1,178 @@
+.main-nav{
+    text-align: center;
+}
+.main-nav ul{
+    list-style: none;
+    padding: 0;
+    
+    font-family: sans-serif;
+}
+.main-nav ul li{
+    display: inline-block;
+    
+    padding: 10px;
+    
+    position: relative;
+}
+.main-nav ul li::after{
+    content: "";
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    
+    position: absolute;
+    top: 16px;
+    right: -5px;
+}
+
+body{
+    margin: 0;
+}
+
+.hero-image{
+    height: 600px;
+    background-image: url(media/56be17da1f00000d01217ebc.jpeg);
+    
+    background-size: cover;
+    background-position: center center;
+    
+    position: relative;
+}
+
+.hero-image h1{
+    color: burlywood;
+    text-align: left;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    
+    font-size: 85px;
+    font-family: "Fascinate Inline", sans-serif;
+}
+
+h1{
+    color: blue;
+    
+    font-size: 100px;
+    font-family: "Fascinate Inline", sans-serif;
+    
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h1::before{
+    content: "~";
+}
+h1::after{
+    content: "~";
+}
+span{
+    font-size: 50px;
+}
+
+h2{
+    font-family: "Cinzel", sans-serif;
+    
+    text-align: center;
+    
+    border: 5px solid black;
+    padding: 5px;
+    margin: 10px;
+
+}
+
+.g{
+    margin: 10px;
+    
+    text-align: left; 
+    
+    padding: 10px;
+    
+}
+
+.g p{
+    text-align: left;
+    position: absolute;
+    top: 110%;
+    left: 60%;
+    transform: translateX(-50%) translateY(-50%);
+    
+     font-size: 85px;
+    font-family: "Fascinate Inline", sans-serif;
+    color: green
+}
+.g1{
+    margin: 10px;
+    
+    text-align: right; 
+    
+    padding: 10px;
+}
+
+.g1 p{
+    text-align: left;
+    position: absolute;
+    top: 155%;
+    left: 40%;
+    transform: translateX(-50%) translateY(-50%);
+    
+     font-size: 85px;
+    font-family: "Fascinate Inline", sans-serif;
+    color: red
+}
+
+.g2{
+    margin: 10px;
+    
+    text-align: center; 
+    
+    padding: 10px;
+    
+}
+
+.g2 {
+    translateX(-50%) translateY(-50%);
+    
+    font-family: "Fascinate Inline", sans-serif;
+    color: yellowgreen;
+    
+}
+
+.font p{
+    font-size: 30px;
+    text-align: center;
+    font-family: "Cinzel", sans-serif;
+    color: burlywood;
+    
+}
+
+#specialDiv:hover h1{
+    transform: rotate(180deg)
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+}
+
+li {
+    float: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+}
+

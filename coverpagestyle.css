@@ -1,0 +1,13 @@
+.enter{
+    text-align: center;
+    font-size: 100px;
+}
+.hero-image{
+    height: 600px;
+    background-image: url(media/enter-here.jpg);
+    
+    background-size: contain;
+    background-position: center center;
+    
+    position: relative;
+}
